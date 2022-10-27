@@ -31,9 +31,7 @@ public class AssetsLoadMgr : SingletonComponentUnit<AssetsLoadMgr>, IController
         public string _assetName;
         public bool _isWeak = true; //是否是弱引用
     }
-
     
-
     public const int UNLOAD_DELAY_TICK_BASE = 60 * 60; //卸载最低延迟
     private const int LOADING_INTERVAL_MAX_COUNT = 50; //每加载50个后，空闲时进行一次资源清理
 
@@ -296,6 +294,7 @@ public class AssetsLoadMgr : SingletonComponentUnit<AssetsLoadMgr>, IController
 
     }
 
+    
     //异步加载，即使资源已经加载完成，也会异步回调。
     public void LoadAsync(string _assetName,AssetsLoadCallback _callFun,string _targetName = "")
     {
@@ -304,7 +303,6 @@ public class AssetsLoadMgr : SingletonComponentUnit<AssetsLoadMgr>, IController
             Debug.LogError("AssetsLoadMgr Asset Not Exist " + _assetName);
             return;
         }
-        
         AssetObject assetObj = null;
         if (_loadedList.ContainsKey(_assetName))
         {

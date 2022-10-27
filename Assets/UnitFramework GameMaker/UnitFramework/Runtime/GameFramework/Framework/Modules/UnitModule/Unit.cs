@@ -12,26 +12,29 @@ namespace UnitFramework.Runtime
         public Unit()
         {
             m_ChildUnits = new List<IUnit>();
-            m_UnitEnabledEventArgs = GameFramework.Event.CreateEventArgs<UnitEnabledEventArgs>(this);
-            GameFramework.Unit.RegisterUnit(this);
-            UnitEnableCheck();
+            UnitCommon.InitUnitEnableEvent(ref m_UnitEnabledEventArgs, this);
+            UnitCommon.RegisterUnitToFrame(this);
+            //UnitEnableCheck();
+            UnitEnable();
         }
+        
+        // private void UnitEnableCheck()
+        // {
+        //     if (m_IsUnitEnable && !m_IsFirstEnabled)
+        //     {
+        //         UnitEnable();
+        //         m_IsFirstEnabled = true;
+        //     }
+        // }
 
-        private void UnitEnableCheck()
-        {
-            if (m_IsUnitEnable && !m_IsFirstEnabled)
-            {
-                UnitEnable();
-                m_IsFirstEnabled = true;
-            }
-        }
         public void UnitEnable()
         {
-            if (m_IsUnitEnable && m_IsFirstEnabled) return;
-            m_IsUnitEnable = true;
-            m_IsFirstEnabled = true;
-            m_UnitEnabledEventArgs.enable = true;
-            GameFramework.Event.Dispatch((int) UnitHandleType.UnitEnable, m_UnitEnabledEventArgs);
+            UnitCommon.HandleUnitEnable(ref m_IsUnitEnable, ref m_IsFirstEnabled, ref m_UnitEnabledEventArgs);
+        }
+
+        public void UnitDisable()
+        {
+            UnitCommon.HandleUnitDisable(ref m_IsUnitEnable, ref m_UnitEnabledEventArgs);
         }
 
         protected override void Dispose(bool isDisposeManagedResources)
@@ -42,21 +45,11 @@ namespace UnitFramework.Runtime
             {
                 UnitDisable();
             }
-
             base.Dispose(isDisposeManagedResources);
             // 注销单元
-            GameFramework.Unit.DeRegisterUnit(this);
+            //GameFramework.Unit.DeRegisterUnit(this);
+            UnitCommon.DeRegisterUnitFromFrame(this);
         }
-
-        public void UnitDisable()
-        {
-            if (!m_IsUnitEnable) return;
-            m_IsUnitEnable = false;
-            m_UnitEnabledEventArgs.enable = false;
-            GameFramework.Event.Dispatch((int) UnitHandleType.UnitDisable, m_UnitEnabledEventArgs);
-        }
-
-      
     }
 
     /// <summary>
@@ -69,184 +62,96 @@ namespace UnitFramework.Runtime
         private List<IUnit> m_ChildUnits;
         private UnitEnabledEventArgs m_UnitEnabledEventArgs;
         private IUnit m_Parent;
-
-        public IUnit OwnerUnit
-        {
-            get => this;
-        }
-
-        public virtual string UnitName => "EKF Unit";
-
-        public virtual int UnitPriority
-        {
-            get => 0;
-        }
-
+        public IUnit OwnerUnit => this;
+        public IUnit Parent => m_Parent;
+        public virtual int UnitPriority => 0;
         public int ChildCount => m_ChildUnits.Count;
         public bool IsUnitEnable => m_IsUnitEnable;
+        public virtual string UnitName => "EKF Unit";
+       
+    }
 
-        public IUnit Parent
-        {
-            get => m_Parent;
-        }
-
-
-        /// <summary>
-        /// 按照优先级进行降序排序
-        /// </summary>
-        /// <param name="unit1"></param>
-        /// <param name="unit2"></param>
-        /// <returns></returns>
-        private int UnitSortCmp(IUnit unit1, IUnit unit2)
-        {
-            return unit1.UnitPriority < unit2.UnitPriority ? 1 : -1;
-        }
-
+    /// <summary>
+    /// Mono Unit and unit public function
+    /// </summary>
+    public partial class Unit
+    {
         protected override void DisposeManagedResources()
         {
             base.DisposeManagedResources();
-            int count = ChildCount;
-            for (int i = count - 1; i >= 0; i--)
-            {
-                m_ChildUnits[i].Dispose();
-            }
+
+            UnitCommon.DisposeManagedResources(ref m_ChildUnits, this);
         }
 
         protected override void DisposeUnManagedResources()
         {
             base.DisposeUnManagedResources();
-            m_ChildUnits.Clear();
-            m_UnitEnabledEventArgs = null;
+
+            UnitCommon.DisposeUnManagedResources(ref m_ChildUnits, ref m_UnitEnabledEventArgs);
         }
 
-        /// <summary>
-        /// 设置父单元
-        /// </summary>
-        /// <param name="parent"></param>
-        /// <returns></returns>
-        public IUnit SetParent(IUnit parent)
-        {
-            if (ReferenceEquals(parent, m_Parent)) return parent;
-            if (m_Parent != null) m_Parent.RemoveChildUnit(this);
-            if (parent != null) parent.AddChildUnit(this);
-            m_Parent = parent;
-            return m_Parent;
-        }
-
-        /// <summary>
-        /// 尝试获取单元
-        /// </summary>
-        /// <param name="unit"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public bool TryGetUnit<T>(out T unit) where T : IUnit
-        {
-            int count = m_ChildUnits.Count;
-            unit = default;
-            for (int i = 0; i < count; i++)
-            {
-                if (m_ChildUnits[i] is T res)
-                {
-                    unit = res;
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-        /// <summary>
-        /// 获取单元
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public T GetUnit<T>() where T : IUnit
-        {
-            TryGetUnit<T>(out T res);
-            return res;
-        }
-
-        /// <summary>
-        /// 获取单元
-        /// </summary>
-        /// <param name="units"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
         public bool TryGetUnits<T>(out T[] units) where T : IUnit
         {
-            List<T> result = new List<T>();
-            int count = m_ChildUnits.Count;
-            for (int i = 0; i < count; i++)
-            {
-                if (m_ChildUnits[i] is T res)
-                {
-                    result.Add(res);
-                }
-            }
 
-            units = result.ToArray();
-            return true;
+            return UnitCommon.TryGetUnits<T>(ref m_ChildUnits, out units);
         }
 
-        /// <summary>
-        /// 添加子单元 
-        /// </summary>
-        /// <param name="unit"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public T AddChildUnit<T>(T unit) where T : IUnit
+        public bool TryGetUnit<T>(out T unit) where T : IUnit
         {
-            if (m_ChildUnits.Contains(unit)) return unit;
-            m_ChildUnits.Add(unit);
-            if (unit.UnitPriority != 0)
-            {
-                m_ChildUnits.Sort(UnitSortCmp);
-            }
 
-            unit.SetParent(this);
-            return unit;
+            return UnitCommon.TryGetUnit<T>(ref m_ChildUnits, out unit);
         }
 
-        /// <summary>
-        /// 添加子单元
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public T AddChildUnit<T>() where T : IUnit
+        public IUnit SetParent(IUnit parent)
         {
-            T unit = (T) System.Activator.CreateInstance(typeof(T));
-            return AddChildUnit<T>(unit);
+
+            return UnitCommon.SetParent(this, parent, ref m_Parent);
         }
 
-        /// <summary>
-        /// 移除子单元
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        public void RemoveChildUnit<T>() where T : IUnit
-        {
-            int count = m_ChildUnits.Count;
-            for (int i = count - 1; i >= 0; i--)
-            {
-                if (m_ChildUnits[i] is T res)
-                {
-                    m_ChildUnits.RemoveAt(i);
-                    m_ChildUnits[i].SetParent(null);
-                }
-            }
-        }
-
-        /// <summary>
-        /// 移除子单元
-        /// </summary>
-        /// <param name="unit"></param>
         public void RemoveChildUnit(IUnit unit)
         {
-            int index = m_ChildUnits.IndexOf(unit);
-            if (index != -1)
-            {
-                m_ChildUnits.RemoveAt(index);
-                unit.SetParent(null);
-            }
+
+            UnitCommon.RemoveChildUnit(this, unit);
+        }
+
+        public void RemoveChildUnit<T>() where T : IUnit
+        {
+
+            UnitCommon.RemoveChildUnit<T>(this, ref m_ChildUnits);
+        }
+
+        public void RemoveChildUnitAt(int index)
+        {
+            UnitCommon.RemoveChildUnitAt(ref m_ChildUnits, index);
+        }
+
+        public int ChildIndexOf(IUnit unit)
+        {
+            return UnitCommon.ChildIndexOf(ref m_ChildUnits, unit);
+        }
+
+        public T AddChildUnit<T>() where T : IUnit
+        {
+
+            return UnitCommon.AddChildUnit<T>(this);
+        }
+
+        public T AddChildUnit<T>(T unit) where T : IUnit
+        {
+    
+            return UnitCommon.AddChildUnit(this, unit, ref m_ChildUnits);
+        }
+
+        public bool HasChild(IUnit child)
+        {
+    
+            return UnitCommon.HasChild(ref m_ChildUnits, child);
+        }
+
+        public T GetUnit<T>() where T : IUnit
+        {
+
+            return UnitCommon.GetUnit<T>(this);
         }
     }
 }

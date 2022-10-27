@@ -20,9 +20,9 @@ namespace UnitFramework.Runtime
             mInstance = this as T;
             base.Awake();
         }
-        protected override void DisposeUnManagedRes()
+        protected override void DisposeUnManagedResources()
         {
-            base.DisposeUnManagedRes();
+            base.DisposeUnManagedResources();
             if (ReferenceEquals(mInstance, this))
             {
                 mInstance = null;

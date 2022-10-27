@@ -82,7 +82,7 @@ namespace UnitFramework.Runtime
             return panel;
         }
 
-        private bool IsAllowerPop()
+        private bool IsAllowPop()
         {
             bool allowPop = false;
             // 每次取出一条消息进行弹出
@@ -132,13 +132,13 @@ namespace UnitFramework.Runtime
 
         public void Update()
         {
-            if (IsAllowerPop() && messages.Count > 0)
+            if (IsAllowPop() && messages.Count > 0)
             {
                 // Pop Message
                 PopMessage();
             }
 
-            if (IsAllowerPop() && dataMessages.Count > 0)
+            if (IsAllowPop() && dataMessages.Count > 0)
             {
                 // Pop Data
                 PopData();

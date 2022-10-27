@@ -15,6 +15,7 @@ namespace UnitFramework.Editor
             "Data/",
             "LuaScripts/",
             "UI/",
+            "Prefabs/"
         };
         [MenuItem("UnitFramework/AssetBundleTools/Create  AssetBundle Resource Directory")]
         public static void CreateABResourceDirectory()  

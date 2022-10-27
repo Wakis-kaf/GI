@@ -7,7 +7,7 @@ namespace UnitFramework.Editor
     {
         private static string LogTraceConditionName = "ENABLE_LOG_TRACE";
 
-        [MenuItem("EKafFramework/Log/OpenLogTrace")]
+        [MenuItem("UnitFramework/Log/OpenLogTrace")]
         static void OpenLogTrace()
         {
             string macro = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone);
@@ -29,7 +29,7 @@ namespace UnitFramework.Editor
                 macro); //将信息保存到宏信息里. 参数1:保存到哪个平台  参数2:要保存的内容.
         }
 
-        [MenuItem("EKafFramework/Log/CloseLogTrace")]
+        [MenuItem("UnitFramework/Log/CloseLogTrace")]
         static void CloseLogTrace()
         {
             string macro = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone);

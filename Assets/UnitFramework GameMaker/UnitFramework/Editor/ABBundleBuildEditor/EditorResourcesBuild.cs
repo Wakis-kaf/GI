@@ -6,7 +6,7 @@ namespace UnitFramework.Editor
 {
     public class EditorResourcesBuild
     {
-        [MenuItem("UnitFramework/Resources/BuildEditorResourcesExportConfig")]
+        [MenuItem("UnitFramework/Resources/Build EditorResources FileList")]
         static void BuildResourcesExportConfig()
         {
             string path  = Application.dataPath + "/Editor/Resources/";

@@ -19,7 +19,7 @@ namespace UnitFramework.Runtime
         /// </summary>
         public bool enable = true;
 
-        public bool first = true;
+        public bool hasFirstEntered = true;
 
         public Procedure()
         {

@@ -25,7 +25,7 @@ namespace UnitFramework.Runtime
 
         public UnitFrameworkMonoDriver()
         {
-            GameFramework.CreateInstance(); // 创建框架
+            //GameFramework.CreateInstance(); // 创建框架
         }
 
         private void Awake()
@@ -37,7 +37,7 @@ namespace UnitFramework.Runtime
             }
 
             Instance = this;
-
+            GameFramework.CreateInstance(); // 创建框架
             DontDestroyOnLoad(gameObject);
 
             StartGameFramework();

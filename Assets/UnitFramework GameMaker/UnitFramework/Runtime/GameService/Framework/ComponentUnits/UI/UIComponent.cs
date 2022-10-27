@@ -27,9 +27,9 @@ namespace UnitFramework.Runtime
             viewManagerInstance.Refresh();  
         }
 
-        protected override void DisposeUnManagedRes()
+        protected override void DisposeUnManagedResources()
         {
-            base.DisposeUnManagedRes();
+            base.DisposeUnManagedResources();
             viewManagerInstance = null;
         }
 

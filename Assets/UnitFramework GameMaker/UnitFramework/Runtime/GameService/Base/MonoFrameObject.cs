@@ -47,22 +47,22 @@ namespace UnitFramework.Runtime
             if (isDisposeManagedResources)
             {
                 Destroy(gameObject);
-                DisposeManagedRes();
+                DisposeManagedResources();
             }
-            DisposeUnManagedRes();
+            DisposeUnManagedResources();
         }
         
         /// <summary>
         /// 回收托管堆资源
         /// </summary>
-        protected virtual void DisposeManagedRes()
+        protected virtual void DisposeManagedResources()
         {
         }
        
         /// <summary>
         /// 回收非托管堆资源
         /// </summary>
-        protected virtual void DisposeUnManagedRes()
+        protected virtual void DisposeUnManagedResources()
         {
         }
         

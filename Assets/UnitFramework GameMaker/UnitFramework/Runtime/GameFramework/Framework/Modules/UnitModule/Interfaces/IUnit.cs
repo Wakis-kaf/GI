@@ -19,8 +19,13 @@ namespace UnitFramework.Runtime
         public bool TryGetUnits<T>(out T[] units) where T : IUnit;
         public T AddChildUnit<T>(T unit) where T : IUnit;
         public T GetUnit<T>() where T : IUnit;
+
+        public int ChildIndexOf(IUnit unit);
+        
+        public bool HasChild(IUnit child);
         public void RemoveChildUnit<T>() where T : IUnit;
         public void RemoveChildUnit(IUnit unit);
+        public void RemoveChildUnitAt(int index);
         public void UnitEnable();
         public void UnitDisable();
     }

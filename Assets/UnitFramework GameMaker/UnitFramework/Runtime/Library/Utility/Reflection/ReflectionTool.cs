@@ -66,7 +66,6 @@ namespace UnitFramework.Utils
                 if (assemblyAllTypes[i].IsSubClassOfRawGeneric(type))
                 {
                     if (ignoreGenericType && assemblyAllTypes[i].IsGenericType) continue;
-
                     names.Add(assemblyAllTypes[i]);
                 }
             }
@@ -90,7 +89,6 @@ namespace UnitFramework.Utils
                 {
                     if (attributeType != null && !Attribute.IsDefined(item, attributeType))
                         continue;
-
                     res.Add(item);
                 }
             }

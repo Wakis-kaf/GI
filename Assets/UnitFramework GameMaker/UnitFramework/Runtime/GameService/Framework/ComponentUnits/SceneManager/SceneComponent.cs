@@ -87,9 +87,9 @@ namespace UnitFramework.Runtime
             SceneManager.sceneUnloaded -= OnSceneUnLoaded;
         }
 
-        protected override void DisposeManagedRes()
+        protected override void DisposeManagedResources()
         {
-            base.DisposeManagedRes();
+            base.DisposeManagedResources();
             for (int i = 0; i < mAsyncLoadingList.Count; i++)
             {
                 mAsyncLoadingList[i].allowSceneActivation = true;
@@ -101,9 +101,9 @@ namespace UnitFramework.Runtime
             }
         }
 
-        protected override void DisposeUnManagedRes()
+        protected override void DisposeUnManagedResources()
         {
-            base.DisposeUnManagedRes();
+            base.DisposeUnManagedResources();
             mAsyncLoadingList.Clear();
             mAsyncLoadingTransitionList.Clear();
             mAsyncLoadingProgress.Clear();

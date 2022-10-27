@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
 using UnityEngine;
 
 namespace  UnitFramework.Runtime
@@ -17,8 +16,12 @@ namespace  UnitFramework.Runtime
 
         public override void OnUnitAwake()
         {
+#if !UNITY_EDITOR
+            Destroy(gameObject);
+            return;
+#endif
+            
             base.OnUnitAwake();
-
             ReadConfig();
         }
 

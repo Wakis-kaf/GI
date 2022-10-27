@@ -9,8 +9,7 @@ namespace UnitFramework.Runtime
     {
         public override string ComponentUnitName { get=>"SettingComponent"; }
         public string ControllerName { get; }
-        [SerializeField]
-        private string m_SettingHelperTypeName =  "UnitFramework.Runtime.DefaultSettingHelper";
+        [SerializeField] private string m_SettingHelperTypeName = typeof(DefaultSettingHelper).ToString();
 
         private ISettingManager m_SettingManager = null;
         [SerializeField]

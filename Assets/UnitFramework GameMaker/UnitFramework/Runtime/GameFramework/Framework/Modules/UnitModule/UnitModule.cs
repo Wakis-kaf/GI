@@ -42,7 +42,7 @@ namespace UnitFramework.Runtime
             }
             m_UnitHandlers.Sort(HandlerCompare);
 
-            BindHandleEvent();
+            BindHandleEvent(); 
         }
         /// <summary>按照优先等级降序排序处理器/// </summary>
         private int HandlerCompare(IUnitBehaviourHandler one, IUnitBehaviourHandler two)

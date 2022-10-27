@@ -36,7 +36,7 @@ namespace UnitFramework.Runtime
         /// <exception cref="NotImplementedException"></exception>
         public void DownloadAsync(string abFileName, Action action)
         {
-            throw new NotImplementedException();
+           
         }
 
         /// <summary>

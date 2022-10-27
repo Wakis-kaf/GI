@@ -132,7 +132,7 @@ namespace UnitFramework.Runtime
             }
             catch (Exception e)
             {
-                Log.FatalFormat("Frame Exception In Frame Update {0}!", e.Message);
+                Log.FatalFormat("Frame Exception In Frame Update: {0}!( Trace : {1})", e.Message,e.StackTrace);
             }
         }
 
@@ -156,7 +156,7 @@ namespace UnitFramework.Runtime
             }
             catch (Exception e)
             {
-                Log.FatalFormat("Frame Exception In Frame FixedUpdate !", e.Message);
+                Log.FatalFormat("Frame Exception In Frame FixedUpdate !{0}", e.Message);
             }
         }
 

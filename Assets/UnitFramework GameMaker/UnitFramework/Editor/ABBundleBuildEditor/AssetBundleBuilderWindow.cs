@@ -25,7 +25,7 @@ namespace UnitFramework.Editor
 
         //序列化属性
         protected SerializedProperty m_AssetLstProperty;
-        [MenuItem("EKafFramework/Window/AssetBundle Builder Window")]
+        [MenuItem("UnitFramework/Window/AssetBundle Builder Window")]
         static void OpenWindow()
         {
             AssetBundleBuilderWindow window = EditorWindow.GetWindow<AssetBundleBuilderWindow>("AssetBundle Builder Window");
