@@ -11,18 +11,15 @@ namespace GFramework.UI
         public Transform transform { get; private set; }
 
         // mono组件
-        protected UIContainer uiContainer;
+        protected UIBinder uiBinder;
 
-        // 是否已经初始化
-        protected bool isInitialized = false;
-
-        public bool Hided { get; private set; }
-        public bool Disposed { get; private set; }
+        public bool IsHided { get; private set; }
+        public bool IsDisposed { get; private set; }
 
         public void Show()
         {
-            this.Disposed = false;
-            this.Hided = false;
+            this.IsDisposed = false;
+            this.IsHided = false;
             this.OnPreShow();
             this.gameObject.SetActive(true);
             this.OnShow();
@@ -33,7 +30,7 @@ namespace GFramework.UI
             this.OnPreHide();
             this.gameObject.SetActive(false);
             this.OnHided();
-            this.Hided = true;
+            this.IsHided = true;
         }
 
         public void Close()
@@ -46,20 +43,20 @@ namespace GFramework.UI
         public void Dispose()
         {
             this.gameObject.SetActive(false);
-            this.Disposed = true;
+            this.IsDisposed = true;
             UnityEngine.GameObject.Destroy(this.gameObject);
         }
 
         // 获取预制体UGUI组件
         protected T GetVar<T>(int index) where T : Component
         {
-            return this.uiContainer.GetVar(index).component as T;
+            return this.uiBinder.GetVar(index).component as T;
         }
 
         // 获取预制体UIContainer组件，因为需要递归创建对应的view对象
-        protected T1 GetContainer<T1>(int index) where T1 : BaseView, new()
+        protected T1 GetBinder<T1>(int index) where T1 : BaseView, new()
         {
-            UIVar var = this.uiContainer.GetVar(index);
+            UIVar var = this.uiBinder.GetVar(index);
             T1 view = UIMgr.NewUI<T1>();
             view.BindGO(var.gameObject, true);
             return view;
@@ -69,9 +66,9 @@ namespace GFramework.UI
         {
             this.gameObject = go;
             this.transform = go.transform;
-            this.uiContainer = go.GetComponent<UIContainer>();
+            this.uiBinder = go.GetComponent<UIBinder>();
             if (!exist)
-                this.transform.SetParentOfUI(this.uiContainer.layer, this.uiContainer.node);
+                this.transform.SetParentOfUI(this.uiBinder.layer, this.uiBinder.node);
             Load();
         }
 
@@ -83,7 +80,7 @@ namespace GFramework.UI
         }
 
         // 获取预制体路径
-        public abstract string BindPath();
+        public virtual string BindPath() { return null; }
         // 获取uicontainer组件
         protected virtual void BindVars() { }
         /// <summary>

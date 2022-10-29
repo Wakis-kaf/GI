@@ -3,12 +3,10 @@ using System;
 using System.Collections.Generic;
 
 using GFramework;
-using GFramework.Extern;
 using GFramework.UI;
 using UnitFramework.Runtime;
 using UnityEngine;
 using Object = UnityEngine.Object;
-using GFramework.Util;
 
 #if XLua
 [LuaCallCSharp]
@@ -67,8 +65,8 @@ public class UIMgr
     {
         T1 view = new T1();
         Type type = typeof(T1);
-        object[] attrs = (UIViewAttr[])type.GetCustomAttributes(typeof(UIViewAttr), false);
-        UIViewAttr viewAttr = attrs.Length > 0 ? attrs[0] as UIViewAttr : null;
+        object[] attrs = (ViewConfig[])type.GetCustomAttributes(typeof(ViewConfig), false);
+        ViewConfig viewAttr = attrs.Length > 0 ? attrs[0] as ViewConfig : null;
         if (viewAttr != null)
         {
             if (viewAttr.isSingleton) singleViewMap[type] = view;

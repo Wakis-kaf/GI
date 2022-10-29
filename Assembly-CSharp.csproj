@@ -39,10 +39,12 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Utility.Excel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerComponent.FSPCounter.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\ComponentUnit.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\UIFramework.config.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\ControllerBlocker.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Base\FrameObject.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Setting\SettingManager.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\UnityWebRequest\Example\UnityWebRequestMgr.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\base\AChannel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitDestroy\UnitBehaviourDestroyHandler.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\EventModule\FrameEventArgs.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\AssetResources\AssetsLoadMgr.cs" />
@@ -54,6 +56,7 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\InvocationFactory.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Helper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\TcpClientProxy.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\CoroutineManager[Dev]\CoroutineManagerComponent.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\AssetResources\AssetBundleLoadMgr.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\BinaryHelper\BinarySerializer\ObjectSerializer.cs" />
@@ -61,10 +64,11 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\Log.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\GeneralClientNetwork\Framework\NetManager.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\IComponentUnit.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\UdpServerProxy.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\Interfaces\IUnitEntity.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\UIViewAttr.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\Interfaces\IUnitBehaviourHandler.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\BinaryHelper\BinarySerializer\BinaryArchive.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\UIVar.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\JsonMapper.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Setting\DefaultSettingSerializer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\BinaryHelper\BinarySerializer\ArchiveSystem.QuaternionSerializer.cs" />
@@ -83,11 +87,12 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Base\MonoController.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\AssetResources\AssetsDownloadMgr.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\NetworkComponent.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\ViewConfig.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Runtime\IView.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\ValueInput\ValueInput.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\JsonHelper\ArchiveSystem.JsonArchiveSerializer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\UI\Code\Componets\TipPanel.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\UIContainer.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Runtime\ReadOnlyInInspector.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerComponent.SystemInformationWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\ContainerModule\ContainerModule.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\ILogWriter.cs" />
@@ -105,13 +110,16 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\FileComponent.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\GeneralClientNetwork\Proto\MsgMove.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\AssetResources\EditorAssetLoadMgr.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\base\ICaller&amp;ICallee.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\ObjectPool\GameObjectPool\Modifiers\GameObjectModifier.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\Attributes\ProxyInterceptorAttribute.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\PathExtern.cs" />
+     <Compile Include="Assets\gamelogic\Network\Services\LogicService.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\JsonException.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\SaveSerialize.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Utility.UnityTransform.cs" />
+     <Compile Include="Assets\gamelogic\Share\log\LogDumper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\UIMgr.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\UnityTypeBindings.cs" />
@@ -128,15 +136,16 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerComponent.SettingsWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\BinaryHelper\BinarySerializer\ArchiveSystem.ColorSerializer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\common\ProtoBufNetSerializer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\gamelogic\GameLaunch.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\PropertyBinder.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\JsonMockWrapper.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFrameworkDriver\UnitFrameworkMonoDriver.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\ObjectPool\GameObjectPool\GameObjectPool.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\Netstandard15Polyfill.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerManager.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\public\ProtoDefine.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\SingletonComponentUnit.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\ModelModule\ModelModule.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\ControllerBase.cs" />
@@ -146,17 +155,18 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\Archive.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerComponent.ScrollableDebuggerWindowBase.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\base\IPacker.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\AutoRegisterModuleAttribute.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\ILogWriteHelper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitController\IModelController.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\common\NetTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\UnitFrameworkException.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Reflection\ReflectionTool.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitController\IController.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\BaseViewModel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitStart\UnitStartHandler.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\IDebuggerWindowGroup.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\GameService.cs" />
@@ -168,13 +178,17 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\GeneralClientNetwork\Proto\LoginMsg.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\Excel Loader\ExcelLoader.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\SceneManager\SceneComponent.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\TcpServerProxy.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\JsonReader.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\SingletonUnit.cs" />
+     <Compile Include="Assets\gamelogic\Share\log\GLogger.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\UdpClientProxy.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\Attributes\ProxyableMethodAttribute.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitAwake\IUnitAwake.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\IArchiveWriter.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\public\ProtoPacker.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\Interfaces\IInterceptor.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Libraries\LitJson\ParserToken.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\EventModule\EventModule.cs" />
@@ -187,8 +201,8 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitBehaviourHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\common\NetStatHandler.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\BaseView.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\BaseData.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitView\IViewer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\ValueInput\MousePosition.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Base\Module.cs" />
@@ -197,8 +211,11 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\UnityWebRequest\Example\BaseWebRequest.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\Attribute\LogStackTraceIgnore.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\InterceptorFactory.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\core\base\ADispatcher.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\Extends\TxtLogWriteHelper.cs" />
+     <Compile Include="Assets\gamelogic\Share\protocols\Login.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\UnitHandler\UnitArchiveWriter.cs" />
+     <Compile Include="Assets\gamelogic\Share\net\public\AckResp.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\DebuggerComponent.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\UnitHandler\IUnitArchiveWriter.cs" />
@@ -219,7 +236,6 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Debugger\Log\ILogPrintHelper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\AOPProxy\Attributes\ProxyableAttribute.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\BindableProperty.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\Excel Loader\IExcelDataReceiver.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Utility.Path.cs" />
@@ -244,6 +260,7 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\CoroutineManager[Dev]\LightCoroutineMono.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\TxtTableLoader\TxtTableLoader.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Procedure\IProcedureTransition.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\UIBinder.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\ObjectPool\Core\ObjectModifier.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\ContainerModule\IHelperBase.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitAwake\UnitAwakeHandler.cs" />
@@ -271,12 +288,12 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Setting\SettingComponent.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnitHandler.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Procedure\Procedure.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Runtime\MVC\IBinding.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Base\MonoUnit.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\IInputController.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\GeneralClientNetwork\Framework\MsgBase.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitDestroy\IUnitDestroy.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\FileUtil.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -555,8 +572,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>E:\app\unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\Protobuf-net\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\Protobuf-net\protobuf-net.Core.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -567,17 +590,23 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="System.Collections.Immutable">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\System\System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\System\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Excel">
         <HintPath>E:\study\unity\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Excel\Excel.dll</HintPath>

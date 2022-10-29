@@ -43,9 +43,9 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AutoRemoveAssetBundleLabel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilder.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\LogEditor\LogEditor.cs" />
-     <Compile Include="Assets\gamelogic\UIFramework\Editor\UIContainer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\EditorResourcesBuild.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\ResourcesBuild.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Editor\UIBinderGenerator.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\Inspectors\MonoUnitInspector.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AutoSetAssetBundleLabel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\DeleteAssetBundle.cs" />
@@ -314,6 +314,9 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\Protobuf-net\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -322,6 +325,9 @@
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\Protobuf-net\protobuf-net.Core.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -341,17 +347,23 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="System.Collections.Immutable">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\System\System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>E:\study\unity\GI\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>E:\study\unity\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>E:\study\unity\GI\Assets\gamelogic\Share\plugins\System\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Excel">
         <HintPath>E:\study\unity\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Excel\Excel.dll</HintPath>
