@@ -1,6 +1,6 @@
 ﻿
 using System;
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     public delegate void RpcCallBack(object resp);
 

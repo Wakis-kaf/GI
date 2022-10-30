@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using UnitFramework.Runtime;
+using UnityEngine;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
-    public abstract class BaseView : IView
+    public abstract class BaseView : Unit, IWindow, IViewer
     {
         // ui游戏物体
         public GameObject gameObject { get; private set; }
@@ -13,8 +14,16 @@ namespace GFramework.UI
         // mono组件
         protected UIBinder uiBinder;
 
+        // model
+        protected CVBlackBoard cvBlackBoard;
+
+        // control
+        protected IController controller;
+
         public bool IsHided { get; private set; }
         public bool IsDisposed { get; private set; }
+
+        public IUnit OwnerUnit => this;
 
         public void Show()
         {
@@ -94,5 +103,25 @@ namespace GFramework.UI
         protected virtual void OnHided() { }
         protected virtual void OnClosing() { }
         protected virtual void OnClosed() { }
+
+        public void OnCtrViewModelConnected(CVBlackBoard cvBlackBoard)
+        {
+            this.cvBlackBoard = cvBlackBoard;
+        }
+
+        public void OnCtrViewModelDisConnected(CVBlackBoard cvBlackBoard)
+        {
+            this.cvBlackBoard = null;
+        }
+
+        public void OnCtrModelConnected(IController controller)
+        {
+            this.controller = controller;
+        }
+
+        public void OnCtrModelDisConnected(IController controller)
+        {
+            this.controller = null;
+        }
     }
 }

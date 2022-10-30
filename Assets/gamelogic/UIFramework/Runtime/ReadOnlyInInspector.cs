@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
     public class ReadOnlyInInspector : PropertyAttribute
     {

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnitFramework.Runtime;
-using GFramework.UI;
+using UGFramework.UI;
 using GameLogic.UI;
 
 public class GameLaunch : Procedure
@@ -12,6 +12,6 @@ public class GameLaunch : Procedure
         base.OnEnter(procedureComponent);
         Log.Info("Load");
         UICanvas.Setup();
-        UIMgr.ShowUI<UIEntry>();
+        UIMgr.ShowUI<UIEntryView>();
     }
 }

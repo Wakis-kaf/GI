@@ -6,11 +6,28 @@ using System.Threading.Tasks;
 
 public static class PathExtern
 {
+    /// <summary>
+    /// 路径格式化；/ 替换 \\ 
+    /// </summary>
+    /// <param name="path"></param>
+    /// <returns></returns>
     public static string PathFormat(this string path)
     {
         if (string.IsNullOrEmpty(path)) return path;
         path = path.Replace("\\", "/");
         return path;
+    }
+
+    /// <summary>
+    /// 获取当前路径的父目录
+    /// </summary>
+    /// <returns></returns>
+    public static string GetDirectory(this string str)
+    {
+        string s = str.PathFormat();
+        s = s.TrimEnd('/');
+        int index = s.LastIndexOf('/');
+        return s.Substring(0, index);
     }
 
     // 获取路径前缀

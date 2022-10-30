@@ -3,7 +3,7 @@ using System.IO;
 
 using ProtoBuf;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     // ProtocolBuf Net序列化
     public class ProtoBufNetSerializer

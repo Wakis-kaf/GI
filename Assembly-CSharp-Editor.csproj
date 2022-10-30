@@ -50,6 +50,7 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AutoSetAssetBundleLabel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\DeleteAssetBundle.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilderWindow.cs" />
+     <Compile Include="Assets\gamelogic\UIFramework\Editor\PopupWindow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\app\unity\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

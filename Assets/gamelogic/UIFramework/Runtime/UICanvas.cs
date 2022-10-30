@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
     /// <summary>
     /// UI层级
@@ -32,9 +32,8 @@ namespace GFramework.UI
 
         public static void Setup()
         {
-            GameObject rootPreb = UIMgr.LoadUIAsset("Home/UIRoot");
+            GameObject rootPreb = UIMgr.LoadUIAsset(UIConfig.canvasPrefab);
             Transform root = GameObject.Instantiate<GameObject>(rootPreb).transform;
-            // root.SetParent(GameObject.Find("Game").transform);
             Canvas canvas = root.GetComponent<Canvas>();
             canvas.renderMode = RenderMode.ScreenSpaceCamera;
             canvas.worldCamera = Camera.main;

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     public interface IPacker
     {

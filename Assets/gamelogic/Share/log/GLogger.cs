@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 #if UNITY_STANDALONE_WIN
 using UnityEngine;
 #endif
-namespace GFramework
+namespace UGFramework
 {
     public class GLogger
     {

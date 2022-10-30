@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     /// <summary>
     /// UDP连接管理类

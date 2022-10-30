@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
     sealed class ViewConfig : Attribute

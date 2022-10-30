@@ -5,7 +5,7 @@ using System.Text;
 #if UNITY_STANDALONE_WIN
 using UnityEngine;
 #endif
-namespace GFramework
+namespace UGFramework
 {
     public static class LogDumper
     {

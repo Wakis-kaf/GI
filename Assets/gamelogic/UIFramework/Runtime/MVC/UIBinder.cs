@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
     public class UIBinder : MonoBehaviour
     {

@@ -9,10 +9,11 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 
 using UnityEngine;
+using UGFramework.Util;
 
 using Object = UnityEngine.Object;
 
-namespace GFramework.UI
+namespace UGFramework.UI
 {
     [CustomEditor(typeof(UIBinder))]
     public class UIBinderGenerator : UnityEditor.Editor
@@ -101,7 +102,7 @@ namespace GFramework.UI
             }
 
             // NOTE: 拖拽获取组件
-            Rect rect = EditorGUILayout.GetControlRect();
+            Rect rect = EditorGUILayout.GetControlRect(true, 60);
             if (rect.Contains(Event.current.mousePosition))
             {
                 DragAndDrop.visualMode = DragAndDropVisualMode.Generic;
@@ -160,15 +161,15 @@ namespace GFramework.UI
             if (string.IsNullOrEmpty(assetPath))
                 throw new NoNullAllowedException("请先创建预制体！！！");
 
-            string prefabPath = assetPath.Substring(Path.Combine("Assets", UIConfig.prefabRoot).PathFormat().Length).TrimSuffix(".prefab");
-            string csPath = Path.Combine(Application.dataPath, UIConfig.csharpRoot, prefabPath + ".cs").PathFormat();
+            var prefabPath = assetPath.Substring(Path.Combine("Assets", UIConfig.prefabRoot).PathFormat().Length).TrimSuffix(".prefab");
+            var fileName = prefabPath.GetLastFieldName().FetchAlpAndDigAndLine();
+            var csPath = Path.Combine(Application.dataPath, UIConfig.csharpRoot, prefabPath.GetDirectory(), fileName + ".cs").PathFormat();
             if (null == this.bindingCS.objectReferenceValue)
             {
-                GFramework.Util.FileUtil.DepCreateFile(csPath);
+                UGFramework.Util.FileUtil.DepCreateFile(csPath);
+                // NOTE:  必须刷新，否则csAsset找不到
                 AssetDatabase.Refresh();
                 Debug.Log($"创建C#脚本，在{csPath}");
-                // NOTE:  必须刷新，不然csAsset找不到
-
                 var csAssetPath = "Assets" + csPath.Substring(Application.dataPath.PathFormat().Length);
                 var csAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(csAssetPath);
                 this.bindingCS.objectReferenceValue = csAsset;
@@ -177,6 +178,7 @@ namespace GFramework.UI
                 this.serializedObject.ApplyModifiedPropertiesWithoutUndo();
                 this.serializedObject.UpdateIfRequiredOrScript();
             }
+
             AutoUpdateCodeOfBaseView(prefabPath);
             AssetDatabase.Refresh();
         }
@@ -200,15 +202,11 @@ namespace GFramework.UI
         private void AutoGenBaseView()
         {
             TextAsset cs = this.bindingCS.objectReferenceValue as TextAsset;
-            var className = cs.name.Trim('#');
-            // 首字母大写
-            className = className.Substring(0, 1).ToUpper() + className.Substring(1);
+            var className = cs.name.Trim('#').PascalFormat();
             // 生成代码模板
-            var codeTemplate = @$"using GFramework.UI;
-            using UnityEngine;
-            using UnityEngine.UI;
-            namespace GameLogic.UI
-            {{
+            var codeTemplate = @$"using UGFramework.UI;
+            using UnityEngine;using UnityEngine.UI;
+            namespace GameLogic.UI{{
                 public class UI{className}: BaseView
                 {{
                     // ++
@@ -227,10 +225,11 @@ namespace GFramework.UI
         private void AutoUpdateCodeOfBaseView(string prefabPath)
         {
             TextAsset cs = this.bindingCS.objectReferenceValue as TextAsset;
+            string codeTxt = cs.text;
             // NOTE: 没有找到类名，重新生成
-            if (string.IsNullOrEmpty(IsMatchCSClassName(cs.text)))
+            if (string.IsNullOrEmpty(IsMatchCSClassName(codeTxt)))
                 AutoGenBaseView();
-            string[] lines = cs.text.Split('\n');
+            string[] lines = codeTxt.Split('\n');
             StringBuilder sb = new StringBuilder();
             bool flag = true;
             for (int i = 0; i < lines.Length; ++i)
@@ -284,8 +283,6 @@ namespace GFramework.UI
                 }
             }
             var csPath = Path.Combine(Application.dataPath.TrimSuffix("/Assets"), AssetDatabase.GetAssetPath(cs)).PathFormat();
-            Debug.Log(csPath);
-            Debug.Log(sb.ToString());
             File.WriteAllText(csPath, sb.ToString());
             AssetDatabase.Refresh();
         }

@@ -386,6 +386,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/gamelogic/UIFramework/Editor/PopupWindow.cs"
 "Assets/gamelogic/UIFramework/Editor/UIBinderGenerator.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/AssetBundleBuilder.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/AssetBundleBuilderWindow.cs"

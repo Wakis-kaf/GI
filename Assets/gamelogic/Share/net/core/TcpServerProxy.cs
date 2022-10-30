@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     public class TcpServerProxy : AChannel, IDisposable
     {

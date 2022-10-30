@@ -1,5 +1,5 @@
 ﻿using System.Net;
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     public abstract class AChannel
     {

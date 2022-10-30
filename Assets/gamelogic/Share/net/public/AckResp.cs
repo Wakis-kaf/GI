@@ -1,6 +1,6 @@
 using ProtoBuf;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
     public class AckResp

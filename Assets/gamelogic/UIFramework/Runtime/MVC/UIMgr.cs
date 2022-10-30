@@ -2,8 +2,8 @@
 using System;
 using System.Collections.Generic;
 
-using GFramework;
-using GFramework.UI;
+using UGFramework;
+using UGFramework.UI;
 using UnitFramework.Runtime;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -19,24 +19,27 @@ using Object = UnityEngine.Object;
 
 public class UIMgr
 {
-    static readonly string basePath = "Prefabs/UI";
+    // 单例view字典
+    private static Dictionary<Type, IWindow> singleViewMap = new Dictionary<Type, IWindow>();
+    // 其他ui
+    private static Stack<IWindow> mainStack = new Stack<IWindow>();
 
+    /// <summary>
+    /// 加载UI预制体
+    /// </summary>
+    /// <param name="path"></param>
+    /// <returns></returns>
     public static GameObject LoadUIAsset(string path)
     {
-        string url = Path.Combine(basePath, path);
+        string url = Path.Combine(UIConfig.prefabBasePath, path);
         return GameService.Asset.LoadSync(url.PathFormat()) as GameObject;
     }
-
-    // 单例ui
-    private static Dictionary<Type, IView> singleViewMap = new Dictionary<Type, IView>();
-    // 其他ui
-    private static Stack<IView> mainStack = new Stack<IView>();
 
     /// <summary>
     /// 获取单例面板
     /// </summary>
     /// <value></value>
-    public static T GetSingleView<T>() where T : IView
+    public static T GetSingleView<T>() where T : IWindow
     {
         if (!singleViewMap.ContainsKey(typeof(T)))
         {
@@ -49,7 +52,7 @@ public class UIMgr
     {
         if (mainStack == null)
         {
-            mainStack = new Stack<IView>();
+            mainStack = new Stack<IWindow>();
             return;
         }
         if (mainStack.Count <= 0) return;
@@ -113,5 +116,22 @@ public class UIMgr
         mainStack.Push(view);
         view.Show();
         return view;
+    }
+
+    public static (T1, T2) ShowUI<T1, T2>() where T1 : BaseView, new() where T2 : class, IModelController, new()
+    {
+        Type type = typeof(T1);
+        T1 view = null;
+        if (singleViewMap.ContainsKey(type)) view = (T1)singleViewMap[type];
+        if (view == null)
+        {
+            view = NewUI<T1>();
+            LoadUI<T1>(view);
+        }
+        var controller = new T2();
+        GameFramework.Model.BindViewer((IModelController)controller, view);
+        mainStack.Push(view);
+        view.Show();
+        return (view, controller);
     }
 }

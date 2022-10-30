@@ -3,7 +3,7 @@ using System.Collections;
 using System.Net;
 using System.Net.NetworkInformation;
 
-namespace GFramework.Network
+namespace UGFramework.Network
 {
     public class NetTool
     {

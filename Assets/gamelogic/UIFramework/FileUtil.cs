@@ -4,10 +4,14 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GFramework.Util
+namespace UGFramework.Util
 {
     public class FileUtil
     {
+        /// <summary>
+        /// 递归创建文件
+        /// </summary>
+        /// <param name="fullPath"></param>
         public static void DepCreateFile(string fullPath)
         {
             var p = fullPath.PathFormat();
