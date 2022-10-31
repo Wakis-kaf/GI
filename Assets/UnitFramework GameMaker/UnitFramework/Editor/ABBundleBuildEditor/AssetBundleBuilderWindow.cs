@@ -117,7 +117,7 @@ namespace UnitFramework.Editor
             PlayerPrefs.SetString(iosABPrefName,iosABName);
             PlayerPrefs.SetString(abInitDirPathsName,string.Join(";",m_AbInitDirPaths));
             AssetBundleBuilder.assetBundleInitDirPath = m_AbInitDirPaths.ToArray();
-            PlayerPrefs.Save();
+            //PlayerPrefs.Save();
         }
 
         private void OnGUI()

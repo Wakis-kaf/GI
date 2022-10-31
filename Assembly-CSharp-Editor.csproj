@@ -43,24 +43,24 @@
   <ItemGroup>
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Editor\Utility.EditorAssetDatabase.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\LogEditor\LogRedirect.cs" />
+     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\GitControlEditor\GitControlWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\Procedure\FSMProcessConfigDrawer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ExcelConvert\ExcelConvertWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AutoRemoveAssetBundleLabel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilder.cs" />
+     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridGeneratorEditor.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Editor\PopupWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\LogEditor\LogEditor.cs" />
+     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridEditor.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\EditorResourcesBuild.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\ResourcesBuild.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Editor\UIBinderGenerator.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\Inspectors\MonoUnitInspector.cs" />
+     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Editor\SerializedPropertyExtensions.cs" />
+     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridCellSelectionEditor.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AutoSetAssetBundleLabel.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\DeleteAssetBundle.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilderWindow.cs" />
-     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridGeneratorEditor.cs" />
-     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Editor\GitControlEditor\GitControlWindow.cs" />
-     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridEditor.cs" />
-     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Editor\SerializedPropertyExtensions.cs" />
-     <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Editor\GridCellSelectionEditor.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -325,6 +325,42 @@
      <Reference Include="UnityEditor.UWP.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1c2\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="GitHub.Logging">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.IonicZip">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     </Reference>
+     <Reference Include="GitHub.Unity.45">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+     </Reference>
+     <Reference Include="log4netPlastic">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Immutable">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\gamelogic\Share\plugins\System\System.Collections.Immutable.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.Unsafe">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\gamelogic\Share\plugins\System\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Excel\Excel.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
      <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
@@ -343,50 +379,29 @@
      <Reference Include="protobuf-net.Core">
      <HintPath>E:\YaoGuangWorkSpace\GI\Assets\gamelogic\Share\plugins\Protobuf-net\protobuf-net.Core.dll</HintPath>
      </Reference>
-     <Reference Include="Sirenix.OdinInspector.Attributes">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
      <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <Reference Include="sfw.net">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
      </Reference>
-     <Reference Include="log4netPlastic">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     <Reference Include="GitHub.UnityShim">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
      <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
      </Reference>
-     <Reference Include="System.Collections.Immutable">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\gamelogic\Share\plugins\System\System.Collections.Immutable.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <Reference Include="GitHub.Api.45">
+     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\gamelogic\Share\plugins\System\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-     </Reference>
-     <Reference Include="Excel">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Excel\Excel.dll</HintPath>
-     </Reference>
      <Reference Include="unityplastic">
      <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>E:\YaoGuangWorkSpace\GI\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -855,6 +870,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{b8304e44-daa3-c67c-1b70-096f317e6215}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{ca9a86c1-47b3-d5bf-b8dc-d35cc968aa0f}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{ac2c7150-c81e-9fc4-f268-cd7ffb477d5b}</Project>

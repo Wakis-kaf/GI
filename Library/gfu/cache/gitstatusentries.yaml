@@ -1,0 +1,2298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2022-10-31T20:02:31.745+08:00
+  initializedAtString: 2022-10-31T19:52:08.586+08:00
+  entries:
+  - path: .idea\.idea.GI\.idea\indexLayout.xml
+    fullPath: E:\YaoGuangWorkSpace\GI\.idea\.idea.GI\.idea\indexLayout.xml
+    projectPath: .idea\.idea.GI\.idea\indexLayout.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp.csproj
+    fullPath: E:\YaoGuangWorkSpace\GI\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: E:\YaoGuangWorkSpace\GI\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: E:\YaoGuangWorkSpace\GI\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Plugins\GitHub.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilderWindow.cs
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilderWindow.cs
+    projectPath: Assets\UnitFramework GameMaker\UnitFramework\Editor\ABBundleBuildEditor\AssetBundleBuilderWindow.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage
+    projectPath: Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage.meta
+    fullPath: E:\YaoGuangWorkSpace\GI\Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage.meta
+    projectPath: Assets\UnitFramework GameMaker\UnitFramework\Libraries\Packages\github-for-unity-1.4.0.6503.unitypackage.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: GI.sln
+    fullPath: E:\YaoGuangWorkSpace\GI\GI.sln
+    projectPath: GI.sln
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ArtifactDB
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Artifacts\02\024a10e5f13969f69eb698e5321c6708
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\02\024a10e5f13969f69eb698e5321c6708
+    projectPath: Library\Artifacts\02\024a10e5f13969f69eb698e5321c6708
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    projectPath: Library\Artifacts\03\031e93fc0904d1bf6e77e3af3af1e78d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\05\05dcceda76edd28a853837d85b190523
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\05\05dcceda76edd28a853837d85b190523
+    projectPath: Library\Artifacts\05\05dcceda76edd28a853837d85b190523
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\07\07a653c522a72cc1b0f696d0b7576cc3
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\07\07a653c522a72cc1b0f696d0b7576cc3
+    projectPath: Library\Artifacts\07\07a653c522a72cc1b0f696d0b7576cc3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\15\158d89265516f1af0c8a1e48e793d384
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\15\158d89265516f1af0c8a1e48e793d384
+    projectPath: Library\Artifacts\15\158d89265516f1af0c8a1e48e793d384
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2f\2f50eaf295533142b56bb67da511e8f3
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\2f\2f50eaf295533142b56bb67da511e8f3
+    projectPath: Library\Artifacts\2f\2f50eaf295533142b56bb67da511e8f3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3d\3db1535dc5aadf7fadd6c55aead7d48b
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\3d\3db1535dc5aadf7fadd6c55aead7d48b
+    projectPath: Library\Artifacts\3d\3db1535dc5aadf7fadd6c55aead7d48b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
+    projectPath: Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\4f\4f60bde92c961d1c96f42b0f38d97118
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\4f\4f60bde92c961d1c96f42b0f38d97118
+    projectPath: Library\Artifacts\4f\4f60bde92c961d1c96f42b0f38d97118
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\51\51c1e322b6b01ca0abd68c795663fd5d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\51\51c1e322b6b01ca0abd68c795663fd5d
+    projectPath: Library\Artifacts\51\51c1e322b6b01ca0abd68c795663fd5d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\55\5509e0bdffb2efd342dbc044e9b866a2
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\55\5509e0bdffb2efd342dbc044e9b866a2
+    projectPath: Library\Artifacts\55\5509e0bdffb2efd342dbc044e9b866a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\56\567f6fad93f406b046649d95f242e57d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\56\567f6fad93f406b046649d95f242e57d
+    projectPath: Library\Artifacts\56\567f6fad93f406b046649d95f242e57d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    projectPath: Library\Artifacts\60\60c5372f90cfb757cd63417347b21c54
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\64\6472e2655b34828e2b5750380510e889
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\64\6472e2655b34828e2b5750380510e889
+    projectPath: Library\Artifacts\64\6472e2655b34828e2b5750380510e889
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    projectPath: Library\Artifacts\66\66c8bcda36225ba091464c8df68c12f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\70a1af27b5204fae71697343163ae5fb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\70\70a1af27b5204fae71697343163ae5fb
+    projectPath: Library\Artifacts\70\70a1af27b5204fae71697343163ae5fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\71\716f06caa3bfb9113ef1e5b287fdd527
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\71\716f06caa3bfb9113ef1e5b287fdd527
+    projectPath: Library\Artifacts\71\716f06caa3bfb9113ef1e5b287fdd527
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\71\71da02367ab8ddab33341d4142ed399f
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\71\71da02367ab8ddab33341d4142ed399f
+    projectPath: Library\Artifacts\71\71da02367ab8ddab33341d4142ed399f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\72\721fca9ed749cd50158b823e4132a3fa
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\72\721fca9ed749cd50158b823e4132a3fa
+    projectPath: Library\Artifacts\72\721fca9ed749cd50158b823e4132a3fa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\757db375fa19be26f557d94a476b6df7
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\75\757db375fa19be26f557d94a476b6df7
+    projectPath: Library\Artifacts\75\757db375fa19be26f557d94a476b6df7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    projectPath: Library\Artifacts\76\76b09290903b8c7da246ad69ed336ad2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7f\7f5d874fab24fa67d6cf9b52fd08a27c
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\7f\7f5d874fab24fa67d6cf9b52fd08a27c
+    projectPath: Library\Artifacts\7f\7f5d874fab24fa67d6cf9b52fd08a27c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    projectPath: Library\Artifacts\81\811b9d40864c13f57f0b0ea9c714d5dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\81\8156ce6b107df1aacfe2c07bd9ea1151
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\81\8156ce6b107df1aacfe2c07bd9ea1151
+    projectPath: Library\Artifacts\81\8156ce6b107df1aacfe2c07bd9ea1151
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    projectPath: Library\Artifacts\82\82108f944ceb23fd0c375157bae96a18
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8a\8aa39537e12a84877454499e70920b1c
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\8a\8aa39537e12a84877454499e70920b1c
+    projectPath: Library\Artifacts\8a\8aa39537e12a84877454499e70920b1c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8c\8c13f6844f9061ca584afae262000a65
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\8c\8c13f6844f9061ca584afae262000a65
+    projectPath: Library\Artifacts\8c\8c13f6844f9061ca584afae262000a65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\8f\8f1afaac9e15fb8d9f034f0d472d479a
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\8f\8f1afaac9e15fb8d9f034f0d472d479a
+    projectPath: Library\Artifacts\8f\8f1afaac9e15fb8d9f034f0d472d479a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\90\90813518799066fe76196453c469546d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\90\90813518799066fe76196453c469546d
+    projectPath: Library\Artifacts\90\90813518799066fe76196453c469546d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\92\9248c6606b39ef9c1106ea4ae4dc41c4
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\92\9248c6606b39ef9c1106ea4ae4dc41c4
+    projectPath: Library\Artifacts\92\9248c6606b39ef9c1106ea4ae4dc41c4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\99\9932cb9de03dd01080b626c6b2f31c9a
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\99\9932cb9de03dd01080b626c6b2f31c9a
+    projectPath: Library\Artifacts\99\9932cb9de03dd01080b626c6b2f31c9a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\99\99ba3f9c29bb87ecf50ba2301f12fc66
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\99\99ba3f9c29bb87ecf50ba2301f12fc66
+    projectPath: Library\Artifacts\99\99ba3f9c29bb87ecf50ba2301f12fc66
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\9a\9af957f233545a7c5e42c8eace3a5136
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\9a\9af957f233545a7c5e42c8eace3a5136
+    projectPath: Library\Artifacts\9a\9af957f233545a7c5e42c8eace3a5136
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a0\a072c5b85d5a9f02351801192a70ad7d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\a0\a072c5b85d5a9f02351801192a70ad7d
+    projectPath: Library\Artifacts\a0\a072c5b85d5a9f02351801192a70ad7d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a4\a49705fb3acdfe67b9dbb1518bae4ef2
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\a4\a49705fb3acdfe67b9dbb1518bae4ef2
+    projectPath: Library\Artifacts\a4\a49705fb3acdfe67b9dbb1518bae4ef2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ac\ac1a30347517a84363b310f8edf8ff13
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\ac\ac1a30347517a84363b310f8edf8ff13
+    projectPath: Library\Artifacts\ac\ac1a30347517a84363b310f8edf8ff13
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b4\b476eff2391486956829e29afc94406e
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\b4\b476eff2391486956829e29afc94406e
+    projectPath: Library\Artifacts\b4\b476eff2391486956829e29afc94406e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b5\b5cbbcbaa21f92c9d6ddbd955f958be1
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\b5\b5cbbcbaa21f92c9d6ddbd955f958be1
+    projectPath: Library\Artifacts\b5\b5cbbcbaa21f92c9d6ddbd955f958be1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    projectPath: Library\Artifacts\b7\b70547605645b0fef1fe4d2cc1f0c8a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    projectPath: Library\Artifacts\bc\bc23fa14b62ef80f1a7d7c84756c63ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\bf\bf74f1c75efa1f833b42eea9b4ade5ec
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\bf\bf74f1c75efa1f833b42eea9b4ade5ec
+    projectPath: Library\Artifacts\bf\bf74f1c75efa1f833b42eea9b4ade5ec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\c9\c9f91a9a80efbe1057c3863d6ce1725a
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\c9\c9f91a9a80efbe1057c3863d6ce1725a
+    projectPath: Library\Artifacts\c9\c9f91a9a80efbe1057c3863d6ce1725a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    projectPath: Library\Artifacts\cc\cc26ce7c9a970c0428eef69a9913832f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    projectPath: Library\Artifacts\d1\d186fa40ae65a4021967bd50673a4f35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\d9\d99e54b414fadccd85ff2bd27059f478
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\d9\d99e54b414fadccd85ff2bd27059f478
+    projectPath: Library\Artifacts\d9\d99e54b414fadccd85ff2bd27059f478
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e1\e16862e6b843ce0e9bf652ee4e9d1f0b
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\e1\e16862e6b843ce0e9bf652ee4e9d1f0b
+    projectPath: Library\Artifacts\e1\e16862e6b843ce0e9bf652ee4e9d1f0b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e7\e7ff25af652f83bbf4e741f272d80898
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\e7\e7ff25af652f83bbf4e741f272d80898
+    projectPath: Library\Artifacts\e7\e7ff25af652f83bbf4e741f272d80898
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e8\e84c135386dc975ccd26fe6d2d8af9b7
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\e8\e84c135386dc975ccd26fe6d2d8af9b7
+    projectPath: Library\Artifacts\e8\e84c135386dc975ccd26fe6d2d8af9b7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    projectPath: Library\Artifacts\e9\e975c2f2a24dc22097accd8bafca38fe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7c624b7f6628a51fb05fa63e123b6d6
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\f7\f7c624b7f6628a51fb05fa63e123b6d6
+    projectPath: Library\Artifacts\f7\f7c624b7f6628a51fb05fa63e123b6d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\fa\faa7a0fd36ebceb5ce4b35c1b0c0e17b
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\fa\faa7a0fd36ebceb5ce4b35c1b0c0e17b
+    projectPath: Library\Artifacts\fa\faa7a0fd36ebceb5ce4b35c1b0c0e17b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
+    projectPath: Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\1900b0aE.dag
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE.dag
+    projectPath: Library\Bee\1900b0aE.dag
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aE.dag.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE.dag.json
+    projectPath: Library\Bee\1900b0aE.dag.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aE.dag.outputdata
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE.dag.outputdata
+    projectPath: Library\Bee\1900b0aE.dag.outputdata
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aE.dag_derived
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE.dag_derived
+    projectPath: Library\Bee\1900b0aE.dag_derived
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aE.dag_fsmtime
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE.dag_fsmtime
+    projectPath: Library\Bee\1900b0aE.dag_fsmtime
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\1900b0aE-inputdata.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\1900b0aE-inputdata.json
+    projectPath: Library\Bee\1900b0aE-inputdata.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.AdditionalFile.txt
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.AdditionalFile.txt
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.AdditionalFile.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.dll.mvfrm.rsp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.ref.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.ref.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.ref.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp-Editor-firstpass.rsp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Sirenix.OdinInspector.CompatibilityLayer.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.CollabProxy.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.EditorCoroutines.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Performance.Profile-Analyzer.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Analytics.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Configuration.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Device.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.Internal.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Environments.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Internal.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Networking.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Registration.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Scheduler.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Telemetry.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Services.Core.Threading.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Settings.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.TextMeshPro.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.Timeline.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Core.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Flow.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.SettingsProvider.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.Shared.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VisualScripting.State.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\Unity.VSCode.Editor.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEditor.UI.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.dll
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.pdb
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.rsp
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.rsp
+    projectPath: Library\Bee\artifacts\1900b0aE.dag\UnityEngine.UI.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\backend_profiler0.traceevents
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\backend_profiler0.traceevents
+    projectPath: Library\Bee\backend_profiler0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\backend_profiler1.traceevents
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\backend_profiler1.traceevents
+    projectPath: Library\Bee\backend_profiler1.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\buildprogram0.traceevents
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\buildprogram0.traceevents
+    projectPath: Library\Bee\buildprogram0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\fullprofile.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\fullprofile.json
+    projectPath: Library\Bee\fullprofile.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\tundra.digestcache
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\tundra.digestcache
+    projectPath: Library\Bee\tundra.digestcache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\tundra.log.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\tundra.log.json
+    projectPath: Library\Bee\tundra.log.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\TundraBuildState.state
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\TundraBuildState.state
+    projectPath: Library\Bee\TundraBuildState.state
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Bee\TundraBuildState.state.map
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Bee\TundraBuildState.state.map
+    projectPath: Library\Bee\TundraBuildState.state.map
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\com.unity.ide.rider\PersistedState.asset
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\com.unity.ide.rider\PersistedState.asset
+    projectPath: Library\com.unity.ide.rider\PersistedState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\EditorInstance.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\expandedItems
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.unity.modules.director@1.0.0\~UnityDirMonSyncFile~69a769b7276129240b19b45bd28f40fe~
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\PackageCache\com.unity.modules.director@1.0.0\~UnityDirMonSyncFile~69a769b7276129240b19b45bd28f40fe~
+    projectPath: Library\PackageCache\com.unity.modules.director@1.0.0\~UnityDirMonSyncFile~69a769b7276129240b19b45bd28f40fe~
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ProtocolInstance.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ProtocolInstance.json
+    projectPath: Library\ProtocolInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\SceneVisibilityState.asset
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.dll
+    projectPath: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    projectPath: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    projectPath: Library\ScriptAssemblies\Sirenix.OdinInspector.CompatibilityLayer.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Analytics.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Analytics.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Analytics.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Configuration.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Configuration.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Configuration.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Device.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Device.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Device.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Environments.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Environments.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Environments.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Internal.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Internal.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Internal.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Networking.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Networking.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Networking.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Registration.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Registration.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Registration.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Scheduler.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Scheduler.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Telemetry.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Telemetry.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Services.Core.Threading.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Services.Core.Threading.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Services.Core.Threading.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Settings.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Settings.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Settings.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Settings.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    projectPath: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    projectPath: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Core.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Flow.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualScripting.State.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Search\transactions.db
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\Search\transactions.db
+    projectPath: Library\Search\transactions.db
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\SourceAssetDB
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: E:\YaoGuangWorkSpace\GI\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker0.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\AssetImportWorker0.log
+    projectPath: Logs\AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\AssetImportWorker0-prev.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\AssetImportWorker0-prev.log
+    projectPath: Logs\AssetImportWorker0-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\AssetImportWorker1.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\AssetImportWorker1.log
+    projectPath: Logs\AssetImportWorker1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\AssetImportWorker1-prev.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\AssetImportWorker1-prev.log
+    projectPath: Logs\AssetImportWorker1-prev.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-AssetImportWorker0.log
+    projectPath: Logs\shadercompiler-AssetImportWorker0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: E:\YaoGuangWorkSpace\GI\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    fullPath: E:\YaoGuangWorkSpace\GI\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+    fullPath: E:\YaoGuangWorkSpace\GI\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    fullPath: E:\YaoGuangWorkSpace\GI\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.csproj.AssemblyReference.cache
+    fullPath: E:\YaoGuangWorkSpace\GI\obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj.AssemblyReference.cache
+    fullPath: E:\YaoGuangWorkSpace\GI\obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj.AssemblyReference.cache
+    projectPath: obj\Debug\Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj.AssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Sirenix.OdinInspector.CompatibilityLayer.csproj
+    fullPath: E:\YaoGuangWorkSpace\GI\Sirenix.OdinInspector.CompatibilityLayer.csproj
+    projectPath: Sirenix.OdinInspector.CompatibilityLayer.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+    fullPath: E:\YaoGuangWorkSpace\GI\Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+    projectPath: Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp\FSTimeGet-900c2353cd6897e40b10059d2cedf0d6
+    fullPath: E:\YaoGuangWorkSpace\GI\Temp\FSTimeGet-900c2353cd6897e40b10059d2cedf0d6
+    projectPath: Temp\FSTimeGet-900c2353cd6897e40b10059d2cedf0d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PropertyDatabase_1265138678
+    fullPath: E:\YaoGuangWorkSpace\GI\Temp\PropertyDatabase_1265138678
+    projectPath: Temp\PropertyDatabase_1265138678
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\PropertyDatabase_2066312223
+    fullPath: E:\YaoGuangWorkSpace\GI\Temp\PropertyDatabase_2066312223
+    projectPath: Temp\PropertyDatabase_2066312223
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityLockfile
+    fullPath: E:\YaoGuangWorkSpace\GI\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\workerlic
+    fullPath: E:\YaoGuangWorkSpace\GI\Temp\workerlic
+    projectPath: Temp\workerlic
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: UserSettings\Layouts\default-2021.dwlt
+    fullPath: E:\YaoGuangWorkSpace\GI\UserSettings\Layouts\default-2021.dwlt
+    projectPath: UserSettings\Layouts\default-2021.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
