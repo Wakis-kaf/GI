@@ -11,7 +11,6 @@ namespace UnitFramework.Runtime
         void OnFrameStart();
         void OnUpdate();
         void OnShutdown();
-        
         bool IsTransitionReady();
     }
 }

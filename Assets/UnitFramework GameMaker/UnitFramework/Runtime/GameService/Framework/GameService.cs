@@ -1,6 +1,6 @@
 ﻿using UnitFramework.Utils;
 using UnityEngine;
-using UnitFramework.Runtime;
+
 namespace UnitFramework.Runtime
 {
     public partial class GameService : SingletonMonoUnit<GameService>, IUnitAwake
@@ -26,6 +26,11 @@ namespace UnitFramework.Runtime
         {
             return Utility.UnityTransform.GetComponentsInChild<ComponentUnit>(transform);
         }
+
+        public static T GetUnitFromFrame<T>() where T : IUnit
+        {
+            return Instance.GetUnit<T>();
+        }
     }
 
     public partial class GameService
@@ -36,10 +41,9 @@ namespace UnitFramework.Runtime
 
         public static ArchiveSystem Archive => Instance.GetUnit<ArchiveSystem>();
         public static AssetsLoadMgr Asset => Instance.GetUnit<AssetsLoadMgr>();
-        public static FileComponent FileComponent => Instance.GetUnit<FileComponent>();
+        public static FileComponent File => Instance.GetUnit<FileComponent>();
         public static SettingComponent Setting => Instance.GetUnit<SettingComponent>();
         public static ProcedureComponent Procedure => Instance.GetUnit<ProcedureComponent>();
         public static DebuggerComponent DebuggerComponent => Instance.GetUnit<DebuggerComponent>();
-
     }
 }

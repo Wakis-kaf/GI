@@ -19,18 +19,14 @@ namespace UnitFramework.Runtime
         /// </summary>
         public bool enable = true;
 
-        public bool hasFirstEntered = true;
+        private bool m_HasNotEntered = true;
 
+        public bool HasNotEntered => m_HasNotEntered;
         public Procedure()
         {
             type = GetType();
             typeStr = type.ToString();
         }
-        ~Procedure()
-        {
-            Dispose(false);
-        }
-    
         public virtual void OnFirstEnter(ProcedureComponent procedureComponent)
         {
             
@@ -60,6 +56,11 @@ namespace UnitFramework.Runtime
         public virtual void OnQuit(ProcedureComponent procedureComponent)
         {
             
+        }
+
+        public void EnteredMark()
+        {
+            m_HasNotEntered = false;
         }
     }
 }

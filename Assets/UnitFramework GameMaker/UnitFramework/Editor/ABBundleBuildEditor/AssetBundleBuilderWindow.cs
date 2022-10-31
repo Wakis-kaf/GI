@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using UnitFramework.Utils;
 using UnityEditor;
 using UnityEngine;
@@ -10,6 +11,12 @@ namespace UnitFramework.Editor
 {
     public class AssetBundleBuilderWindow : EditorWindow
     {
+        static AssetBundleBuilderWindow()
+        {
+            EditorApplication.projectChanged += OnProjectChanged;
+        }
+
+
         private static string windosABName = "WindowsABAssets";
         private static string androidABName = "AndroidABAssets";
         private static string iosABName = "IPhoneABAssets";
@@ -25,6 +32,13 @@ namespace UnitFramework.Editor
 
         //序列化属性
         protected SerializedProperty m_AssetLstProperty;
+        [UnityEditor.Callbacks.DidReloadScripts]
+        static void OnProjectChanged()
+        {
+            Debug.Log("Build");
+            ResourcesBuild.BuildResourcesExportConfig();
+            EditorResourcesBuild.BuildResourcesExportConfig();
+        }
         [MenuItem("UnitFramework/Window/AssetBundle Builder Window")]
         static void OpenWindow()
         {
@@ -34,7 +48,7 @@ namespace UnitFramework.Editor
            
             
         }
-
+  
 
         private void OnEnable()
         {

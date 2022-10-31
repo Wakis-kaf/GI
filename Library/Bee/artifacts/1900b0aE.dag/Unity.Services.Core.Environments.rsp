@@ -121,6 +121,10 @@
 -define:ODIN_INSPECTOR_3_1
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/gamelogic/Share/plugins/Protobuf-net/protobuf-net.Core.dll"
+-r:"Assets/gamelogic/Share/plugins/Protobuf-net/protobuf-net.dll"
+-r:"Assets/gamelogic/Share/plugins/System/System.Collections.Immutable.dll"
+-r:"Assets/gamelogic/Share/plugins/System/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"

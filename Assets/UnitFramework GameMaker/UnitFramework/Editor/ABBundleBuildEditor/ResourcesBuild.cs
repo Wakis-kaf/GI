@@ -4,10 +4,13 @@ using UnityEngine;
 
 namespace UnitFramework.Editor
 {
-    public class ResourcesBuild
+    
+    [InitializeOnLoad]
+    public class ResourcesBuild : AssetPostprocessor
     {
+       
         [MenuItem("UnitFramework/Resources/Build Resources FileList")]
-        static void BuildResourcesExportConfig()
+        public  static void BuildResourcesExportConfig()
         {
             string path  = Application.dataPath + "/Resources/";
             if (!Directory.Exists(path))

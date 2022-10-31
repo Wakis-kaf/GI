@@ -109,6 +109,7 @@ public class JsonLoader : SingletonComponentUnit<JsonLoader>,Utility.Json.IJsonH
             null);
         return  method?.Invoke(this,new object[]{type,new JsonReader(jsonStr)});
     }
+    
     /// <summary>
     /// 将目标对象转化为Json 字符串
     /// </summary>
@@ -118,13 +119,7 @@ public class JsonLoader : SingletonComponentUnit<JsonLoader>,Utility.Json.IJsonH
     {
         return JsonMapper.ToJson(obj);
     }
-
-    /// <summary>
-    /// 保存目标对象到本地文件
-    /// </summary>
-    /// <param name="obj"></param>
-    /// <param name="path"></param>
-    /// <param name="jsonName"></param>
+    
     public void SaveObjectToJsonFile(object obj,string path, string jsonName)
     {
         string content = ObjectToJson(obj);

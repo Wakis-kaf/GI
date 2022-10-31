@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿﻿﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace UnitFramework.Utils
@@ -20,6 +20,23 @@ namespace UnitFramework.Utils
                
                 }
                 return res.ToArray();
+            }
+
+            public static void DestroyChilds(Transform transform)
+            {
+                for (int i = 0; i < transform.childCount; i++)
+                {
+                    var child = transform.GetChild(i);
+                    GameObject.Destroy(child.gameObject);
+                }
+            }
+            public static void DestroyChildsImmediate(Transform transform)
+            {
+                for (int i = 0; i < transform.childCount; i++)
+                {
+                    var child = transform.GetChild(i);
+                    GameObject.DestroyImmediate(child.gameObject);
+                }
             }
         }
     }

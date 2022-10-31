@@ -1,4 +1,4 @@
-﻿﻿namespace UnitFramework.Runtime
+﻿﻿﻿namespace UnitFramework.Runtime
 {
     public interface IInterceptor
     {

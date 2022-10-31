@@ -6,14 +6,13 @@ namespace UnitFramework.Runtime
         where From : Procedure 
         where To : Procedure
     {
-        public Type procedureFrom { get=>m_ProcedureFrom;}
-        public Type procedureTo { get=>m_ProcedureTo; }
-
+        private Type m_ProcedureTo;
+        private Type m_ProcedureFrom;
         public int priority { get; set; } = 1;
         public bool enable { get; set; } = true;
-
-        private Type m_ProcedureFrom;
-        private Type m_ProcedureTo;
+        public Type procedureTo { get=>m_ProcedureTo; }
+        public Type procedureFrom { get=>m_ProcedureFrom;}
+        
         public ProcedureTransition()
         {
             m_ProcedureFrom = typeof(From);

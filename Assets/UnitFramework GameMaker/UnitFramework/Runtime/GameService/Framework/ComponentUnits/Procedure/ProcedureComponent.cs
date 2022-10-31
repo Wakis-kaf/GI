@@ -12,15 +12,7 @@ namespace UnitFramework.Runtime
 {
     public class ProcedureComponent : SingletonComponentUnit<ProcedureComponent>, IController, IUnitStart
     {
-        public override string ComponentUnitName
-        {
-            get => "ProcedureComponent";
-        }
-
-        public string ControllerName
-        {
-            get => "ProcedureController";
-        }
+      
 
         [SerializeField] private FSMProcessConfig m_Config;
         private List<IProcedureTransition> m_ProcedureTransitions = new List<IProcedureTransition>();
@@ -28,6 +20,23 @@ namespace UnitFramework.Runtime
         private IProcedureTransition m_CurrentTransition;
         private Dictionary<Type, Procedure> m_Type2ProcedureMap = new Dictionary<Type, Procedure>();
 
+        public string ControllerName
+        {
+            get => "ProcedureController";
+        }
+
+        public override string ComponentUnitName
+        {
+            get => "ProcedureComponent";
+        }
+
+        public IProcedureTransition CurrentTransition
+        {
+            get => m_CurrentTransition;
+
+        }
+
+        
         public override void OnUnitAwake()
         {
             base.OnUnitAwake();
@@ -136,11 +145,12 @@ namespace UnitFramework.Runtime
             }
 
             // 下一个流程进入
-            if (procedure.hasFirstEntered)
+            if (procedure.HasNotEntered)
             {
                 Log.DebugInfo($"target procedure  {procedure.typeStr} first enter");
                 procedure.OnFirstEnter(this);
-                procedure.hasFirstEntered = false;
+                procedure.EnteredMark();
+                
             }
 
             Log.DebugInfo($"target procedure  {procedure.typeStr} enter");

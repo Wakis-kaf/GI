@@ -121,6 +121,10 @@
 -define:ODIN_INSPECTOR_3_1
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/gamelogic/Share/plugins/Protobuf-net/protobuf-net.Core.dll"
+-r:"Assets/gamelogic/Share/plugins/Protobuf-net/protobuf-net.dll"
+-r:"Assets/gamelogic/Share/plugins/System/System.Collections.Immutable.dll"
+-r:"Assets/gamelogic/Share/plugins/System/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll"
@@ -383,6 +387,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/gamelogic/UIFramework/Editor/PopupWindow.cs"
+"Assets/gamelogic/UIFramework/Editor/UIBinderGenerator.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/AssetBundleBuilder.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/AssetBundleBuilderWindow.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/AutoRemoveAssetBundleLabel.cs"
@@ -391,10 +397,15 @@
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/EditorResourcesBuild.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ABBundleBuildEditor/ResourcesBuild.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/ExcelConvert/ExcelConvertWindow.cs"
+"Assets/UnitFramework GameMaker/UnitFramework/Editor/GitControlEditor/GitControlWindow.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/Inspectors/MonoUnitInspector.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/LogEditor/LogEditor.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/LogEditor/LogRedirect.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Editor/Procedure/FSMProcessConfigDrawer.cs"
+"Assets/UnitFramework GameMaker/UnitFramework/Runtime/Library/GridSystem/Editor/GridCellSelectionEditor.cs"
+"Assets/UnitFramework GameMaker/UnitFramework/Runtime/Library/GridSystem/Editor/GridEditor.cs"
+"Assets/UnitFramework GameMaker/UnitFramework/Runtime/Library/GridSystem/Editor/GridGeneratorEditor.cs"
+"Assets/UnitFramework GameMaker/UnitFramework/Runtime/Library/Utility/Editor/SerializedPropertyExtensions.cs"
 "Assets/UnitFramework GameMaker/UnitFramework/Runtime/Library/Utility/Editor/Utility.EditorAssetDatabase.cs"
 -langversion:9.0
 
