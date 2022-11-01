@@ -10,8 +10,6 @@ public class GameLaunch : Procedure
     public override void OnEnter(ProcedureComponent procedureComponent)
     {
         base.OnEnter(procedureComponent);
-        Log.Info("Load");
         UICanvas.Setup();
-        UIMgr.ShowUI<UIEntryView>();
     }
 }

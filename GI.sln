@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Compa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{ca9a86c1-47b3-d5bf-b8dc-d35cc968aa0f}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{72b12927-96b7-ccae-c35b-80892f185fc5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +26,6 @@ Global
 		{476bf40e-ba49-ad69-f43e-47e3929fd268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ca9a86c1-47b3-d5bf-b8dc-d35cc968aa0f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ca9a86c1-47b3-d5bf-b8dc-d35cc968aa0f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72b12927-96b7-ccae-c35b-80892f185fc5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72b12927-96b7-ccae-c35b-80892f185fc5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
