@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-11-02T00:23:55.026+08:00
-  initializedAtString: 2022-11-02T00:23:55.026+08:00
+  lastUpdatedAtString: 2022-11-02T01:09:18.133+08:00
+  initializedAtString: 2022-11-02T01:09:18.133+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/Wakis-kaf/GI.git

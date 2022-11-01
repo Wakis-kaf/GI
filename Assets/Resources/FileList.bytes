@@ -3,6 +3,9 @@ Font/shanhai SDF
 Font/zhanku SDF(4096)
 Font/zhanku SDF
 Scenes/SampleScene
+Scenes/UI
+Prefabs/UI/home
+Prefabs/UI/login
 Prefabs/UI/UIRoot
 Scenes/Demo/GameDemoScene
 Scenes/Dev/FrameEntry

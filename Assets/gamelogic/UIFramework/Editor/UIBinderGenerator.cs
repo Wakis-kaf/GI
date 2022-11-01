@@ -55,7 +55,8 @@ namespace UGFramework.UI
 
                 EditorGUILayout.BeginHorizontal();
                 // 引用对象
-                bool focus = GUILayout.Button(new GUIContent($"{i}.{go.name.Trim('#')}"), GUILayout.Width(100));
+                string refName = $"{i}.{go.name.Trim('#')}";
+                bool focus = GUILayout.Button(refName, GUILayout.Width(100));
                 if (focus) EditorGUIUtility.PingObject(go);
                 // 字段名字
                 string newFieldName = EditorGUILayout.TextField(fieldName.stringValue, GUILayout.MaxWidth(100));
@@ -162,14 +163,15 @@ namespace UGFramework.UI
                 throw new NoNullAllowedException("请先创建预制体！！！");
 
             var prefabPath = assetPath.Substring(Path.Combine("Assets", UIConfig.prefabRoot).PathFormat().Length).TrimSuffix(".prefab");
-            var fileName = prefabPath.GetLastFieldName().FetchAlpAndDigAndLine();
-            var csPath = Path.Combine(Application.dataPath, UIConfig.csharpRoot, prefabPath.GetDirectory(), fileName + ".cs").PathFormat();
+            var fileName = prefabPath.GetLastFieldName().FetchAlpAndDigAndLine().PascalFormat();
+            var csPath = Path.Combine(Application.dataPath, UIConfig.csharpRoot, prefabPath.GetDirectory(), "UI" + fileName + ".cs").PathFormat();
             if (null == this.bindingCS.objectReferenceValue)
             {
                 UGFramework.Util.FileUtil.DepCreateFile(csPath);
                 // NOTE:  必须刷新，否则csAsset找不到
                 AssetDatabase.Refresh();
                 Debug.Log($"创建C#脚本，在{csPath}");
+
                 var csAssetPath = "Assets" + csPath.Substring(Application.dataPath.PathFormat().Length);
                 var csAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(csAssetPath);
                 this.bindingCS.objectReferenceValue = csAsset;
@@ -178,7 +180,6 @@ namespace UGFramework.UI
                 this.serializedObject.ApplyModifiedPropertiesWithoutUndo();
                 this.serializedObject.UpdateIfRequiredOrScript();
             }
-
             AutoUpdateCodeOfBaseView(prefabPath);
             AssetDatabase.Refresh();
         }
@@ -204,17 +205,20 @@ namespace UGFramework.UI
             TextAsset cs = this.bindingCS.objectReferenceValue as TextAsset;
             var className = cs.name.Trim('#').PascalFormat();
             // 生成代码模板
-            var codeTemplate = @$"using UGFramework.UI;
-            using UnityEngine;using UnityEngine.UI;
-            namespace GameLogic.UI{{
-                public class UI{className}: BaseView
-                {{
-                    // ++
-                    // --
-                }}
-            }}";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("using UGFramework.UI;");
+            sb.AppendLine("using UnityEngine;");
+            sb.AppendLine("using UnityEngine.UI;");
+            sb.AppendLine("using TMPro;");
+            sb.AppendLine("namespace GameLogic.UI{");
+            sb.AppendLine($"public class {className}: BaseView{{");
+            sb.AppendLine("// ++");
+            sb.AppendLine("// --");
+            sb.AppendLine("}");
+            sb.AppendLine("}");
+
             var csPath = Path.Combine(Application.dataPath.TrimSuffix("/Assets"), AssetDatabase.GetAssetPath(cs)).PathFormat();
-            File.WriteAllText(csPath, codeTemplate);
+            File.WriteAllText(csPath, sb.ToString());
             AssetDatabase.Refresh();
         }
 
@@ -225,10 +229,10 @@ namespace UGFramework.UI
         private void AutoUpdateCodeOfBaseView(string prefabPath)
         {
             TextAsset cs = this.bindingCS.objectReferenceValue as TextAsset;
-            string codeTxt = cs.text;
             // NOTE: 没有找到类名，重新生成
-            if (string.IsNullOrEmpty(IsMatchCSClassName(codeTxt)))
+            if (string.IsNullOrEmpty(IsMatchCSClassName(cs.text)))
                 AutoGenBaseView();
+            string codeTxt = cs.text;
             string[] lines = codeTxt.Split('\n');
             StringBuilder sb = new StringBuilder();
             bool flag = true;
@@ -239,16 +243,15 @@ namespace UGFramework.UI
                     flag = true;
                 }
                 if (!flag) continue;
-                sb.AppendLine(lines[i]);
+                sb.Append(lines[i]);
                 if (lines[i].Contains("// ++"))
                 {
                     flag = false;
-                    var bindPathRegion = @$"public override string BindPath()
-                    {{
-                        return ""{prefabPath}"";
-                    }}";
-                    sb.AppendLine(bindPathRegion);
-
+                    StringBuilder bindPathRegion = new StringBuilder();
+                    sb.AppendLine("public override string BindPath()");
+                    sb.AppendLine("{");
+                    sb.AppendLine($"return \"{prefabPath}\";");
+                    sb.AppendLine("}");
                     StringBuilder fieldsSB = new StringBuilder();
                     StringBuilder varsSB = new StringBuilder();
                     varsSB.AppendLine($"protected override void BindVars() {{");

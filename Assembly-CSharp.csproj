@@ -258,7 +258,6 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Archive\BinaryHelper\BinarySerializer\ArchiveSystem.BinaryArchiveSerializer.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\Json Loader\JsonLoader.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\Utility\Utility.IDGenerator.cs" />
-     <Compile Include="Assets\gamelogic\UI\login.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\UI\Code\Base\CanvasView.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\ObjectPool\GameObjectPool\Modifiers\TrailRenderModifier.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\Library\GridSystem\Rectangle2DGirdGenerator.cs" />
@@ -270,6 +269,7 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\AssetResources\ResourcesLoadMgr.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\PushKey\MouseKey.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\CoroutineManager[Dev]\LightCoroutineMono.cs" />
+     <Compile Include="Assets\gamelogic\UI\UILogin.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\File\TxtTableLoader\TxtTableLoader.cs" />
      <Compile Include="Assets\gamelogic\UIFramework\Runtime\IWindow.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Procedure\IProcedureTransition.cs" />
@@ -306,6 +306,7 @@
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Input\IInputController.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameService\Framework\ComponentUnits\Network\GeneralClientNetwork\Framework\MsgBase.cs" />
      <Compile Include="Assets\UnitFramework GameMaker\UnitFramework\Runtime\GameFramework\Framework\Modules\UnitModule\UnitDestroy\IUnitDestroy.cs" />
+     <Compile Include="Assets\gamelogic\UI\UIHome.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

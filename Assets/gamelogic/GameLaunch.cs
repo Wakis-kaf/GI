@@ -11,5 +11,6 @@ public class GameLaunch : Procedure
     {
         base.OnEnter(procedureComponent);
         UICanvas.Setup();
+        UIMgr.ShowUI<UILogin>();
     }
 }

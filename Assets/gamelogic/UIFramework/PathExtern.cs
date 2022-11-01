@@ -27,7 +27,7 @@ public static class PathExtern
         string s = str.PathFormat();
         s = s.TrimEnd('/');
         int index = s.LastIndexOf('/');
-        return s.Substring(0, index);
+        return s.Substring(0, index < 0 ? 0 : index);
     }
 
     // 获取路径前缀
