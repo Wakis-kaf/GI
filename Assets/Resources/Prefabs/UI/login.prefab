@@ -290,10 +290,10 @@ RectTransform:
   m_Father: {fileID: 6654629561880307352}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 251}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 7, y: -217}
+  m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4215494880308392572
 CanvasRenderer:
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u884C\u52A8GI"
+  m_text: "GI\n\u884C\u52A8"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ba4785fa1490dae43b5ee86c4c2bf307, type: 2}
   m_sharedMaterial: {fileID: 8119158084502959350, guid: ba4785fa1490dae43b5ee86c4c2bf307, type: 2}
@@ -350,8 +350,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 83.46
+  m_fontSizeBase: 83.46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
